@@ -2,27 +2,27 @@
 
 [[package]]
 name = "yt-dlp"
-version = "2025.1.26"
+version = "2025.3.26"
 description = "A feature-rich command-line audio/video downloader"
 optional = false
 python-versions = ">=3.9"
 groups = ["main"]
 files = [
-    {file = "yt_dlp-2025.1.26-py3-none-any.whl", hash = "sha256:3e76bd896b9f96601021ca192ca0fbdd195e3c3dcc28302a3a34c9bc4979da7b"},
-    {file = "yt_dlp-2025.1.26.tar.gz", hash = "sha256:1c9738266921ad43c568ad01ac3362fb7c7af549276fbec92bd72f140da16240"},
+    {file = "yt_dlp-2025.3.26-py3-none-any.whl", hash = "sha256:5e3c6464bf7ab61739a7238fe42c922515795350533eff1335eab78b4f624375"},
+    {file = "yt_dlp-2025.3.26.tar.gz", hash = "sha256:47456172bc7a88dba1c519fe42d80087a8f530c03d2cbf24e060a41f8f1f6ecb"},
 ]
 
 [package.extras]
 build = ["build", "hatchling", "pip", "setuptools (>=71.0.2)", "wheel"]
-curl-cffi = ["curl-cffi (==0.5.10)", "curl-cffi (>=0.5.10,!=0.6.*,<0.7.2)"]
+curl-cffi = ["curl-cffi (>=0.5.10,<0.6.dev0 || ==0.10.*)"]
 default = ["brotli", "brotlicffi", "certifi", "mutagen", "pycryptodomex", "requests (>=2.32.2,<3)", "urllib3 (>=1.26.17,<3)", "websockets (>=13.0)"]
-dev = ["autopep8 (>=2.0,<3.0)", "pre-commit", "pytest (>=8.1,<9.0)", "pytest-rerunfailures (>=14.0,<15.0)", "ruff (>=0.9.0,<0.10.0)"]
+dev = ["autopep8 (>=2.0,<3.0)", "pre-commit", "pytest (>=8.1,<9.0)", "pytest-rerunfailures (>=14.0,<15.0)", "ruff (>=0.11.0,<0.12.0)"]
 pyinstaller = ["pyinstaller (>=6.11.1)"]
 secretstorage = ["cffi", "secretstorage"]
-static-analysis = ["autopep8 (>=2.0,<3.0)", "ruff (>=0.9.0,<0.10.0)"]
+static-analysis = ["autopep8 (>=2.0,<3.0)", "ruff (>=0.11.0,<0.12.0)"]
 test = ["pytest (>=8.1,<9.0)", "pytest-rerunfailures (>=14.0,<15.0)"]
 
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.12"
-content-hash = "3728797e2a33215ff9123bcf286c76af69ba09697f6910b6ca792458c1fc0a21"
+content-hash = "c65b2585e4c93bb65d107bff23e554bbb2873fa53d33a3a47da342eefbabf66e"

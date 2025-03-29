@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-yt-dlp = "^2025.1.26"
+yt-dlp = "^2025.3.26"
 
 
 [build-system]
